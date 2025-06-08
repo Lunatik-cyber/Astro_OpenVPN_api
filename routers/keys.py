@@ -3,14 +3,14 @@ from typing import List, Optional
 
 from api.models.key import ActionBulkRequest, KeyCreateRequest, KeyEditRequest, TransferKeyRequest
 from functions.data.key import (
-    get_key_by_id, get_keys_by_name_db
+    get_key_by_id, get_keys_by_name_db, edit_key_db
 )
 from functions.list import KeysList
 from functions.client import (
     create_key, delete_key, renew_key, recreate_key, block_key, unblock_key, transfer_key
 )
-from functions.data.session import get_session_db
-from functions.other import key_to_tg, key_to_email, edit_key_db, delete_session_db
+from functions.data.session import get_session_db, delete_session_db
+from functions.other import key_to_tg, key_to_email
 from functions.data.settings import get_settings_db
 
 router = APIRouter()
