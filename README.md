@@ -55,10 +55,10 @@ pip install -r requirements.txt
 ```bash
 # Клонируйте репозиторий
 cd /lib/openvpn
-git clone https://github.com/Lunatik-cyber/openvpn-api.git
+git clone https://github.com/Lunatik-cyber/Astro_OpenVPN_api.git
 
 # Переименовываем папку
-mv openvpn-api api
+mv Astro_OpenVPN_api api
 
 # Установите зависимости
 cd /lib/openvpn/api
