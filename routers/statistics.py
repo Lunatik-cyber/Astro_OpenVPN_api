@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from typing import Dict, List
+from typing import Dict
 
 from functions.data.key import (
     get_keys_db, get_keys_by_status_db, get_keys_by_connected_db,
@@ -8,7 +8,7 @@ from functions.data.key import (
     get_expired_keys_by_config_db, get_not_expired_keys_by_config_db,
     get_total_key_bytes_by_config_db, get_total_keys_bytes_db
 )
-from functions.data.configs import get_configs_db
+from functions.data.config import get_configs_db
 from functions.other import math_bytes
 
 router = APIRouter()
