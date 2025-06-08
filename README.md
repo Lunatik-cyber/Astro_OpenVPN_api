@@ -135,15 +135,6 @@ uvicorn api.app:app --reload --host $IP --port 8666
 
 ---
 
-## 🎨 Логотип
-
-<p align="center">
-  <img src="logo.svg" width="200" alt="OpenVPN API Logo"/><br>
-  <i><b>OpenVPN API: Automation Gateway</b></i>
-</p>
-
----
-
 ## 📚 Примеры запросов и ответов
 
 ### Получить список всех ключей
