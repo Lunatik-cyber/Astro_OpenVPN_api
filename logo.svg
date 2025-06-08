@@ -1,0 +1,10 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="90" cy="90" r="88" fill="#FF7B1D" stroke="#222" stroke-width="4"/>
+  <ellipse cx="90" cy="110" rx="60" ry="30" fill="#fff" opacity="0.75"/>
+  <ellipse cx="90" cy="110" rx="44" ry="18" fill="#FF7B1D" opacity="0.8"/>
+  <circle cx="90" cy="72" r="28" fill="#fff" stroke="#222" stroke-width="4"/>
+  <circle cx="90" cy="72" r="16" fill="#FF7B1D" stroke="#222" stroke-width="3"/>
+  <rect x="82" y="110" width="16" height="36" rx="8" fill="#fff" stroke="#222" stroke-width="3"/>
+  <circle cx="90" cy="134" r="5" fill="#FF7B1D" stroke="#222" stroke-width="2"/>
+  <text x="90" y="172" text-anchor="middle" font-family="Arial" font-size="22" fill="#222" font-weight="bold">VPN API</text>
+</svg>
