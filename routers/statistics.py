@@ -6,9 +6,11 @@ from functions.data.key import (
     get_expired_keys_db, get_not_expired_keys_db, get_keys_by_config_db,
     get_keys_by_config_and_status_db, get_keys_by_config_and_connected_db,
     get_expired_keys_by_config_db, get_not_expired_keys_by_config_db,
-    get_total_key_bytes_by_config_db, get_total_keys_bytes_db
 )
 from functions.data.config import get_configs_db
+from functions.data.session import (
+    get_total_keys_bytes_db, get_total_key_bytes_by_config_db
+)
 from functions.other import math_bytes
 
 router = APIRouter()
