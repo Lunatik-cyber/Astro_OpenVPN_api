@@ -1,7 +1,12 @@
 from fastapi import APIRouter, HTTPException, Query, Body
 from typing import List, Optional
 
-from api.models.key import ActionBulkRequest, KeyCreateRequest, KeyEditRequest, TransferKeyRequest
+from api.models.key import (
+    ActionBulkRequest, 
+    KeyCreateRequest, 
+    KeyEditRequest, 
+    TransferKeyRequest,
+    KeyOut)
 from functions.data.key import (
     get_key_by_id, get_keys_by_name_db, edit_key_db
 ) 
@@ -16,7 +21,7 @@ from functions.data.settings import get_settings_db
 router = APIRouter()
 
 
-@router.get("/", response_model=List[dict])
+@router.get("/", response_model=List[KeyOut])
 def list_keys(
     by: Optional[str] = Query(
         "all",
